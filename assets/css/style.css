@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(146, 156, 156);
+}
 .container {
   display: grid;
   grid-template-columns: 0.8fr 1fr;
@@ -8,10 +11,12 @@
   box-sizing: border-box;
   width: 50vw;
   border-radius: 15px;
-  background-color: #dee2e3;
+  background-color: #464c4d;
   opacity: 25;
   box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
   overflow: hidden;
+  margin: 3rem;
+  margin-left: 20rem;
 }
 #A {
   margin: auto;
